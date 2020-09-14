@@ -11,9 +11,15 @@
 </script>
 
 <style>
+
 	ul {
 		margin: 0 0 1em 0;
 		line-height: 1.5;
+		display: grid;
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
 	}
 </style>
 

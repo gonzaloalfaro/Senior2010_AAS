@@ -54,12 +54,12 @@
 </style>
 
 <svelte:head>
-	<title>{post.title}</title>
+	<title>{post.name} </title>
 </svelte:head>
 
-<h1>{post.title}</h1>
+<h1>{post.name}</h1>
 <img src="{post.image}" alt="">
 
-<div class='content'>
+<!-- <div class='content'>
 	{@html post.html}
-</div>
+</div> -->

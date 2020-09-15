@@ -21,10 +21,6 @@
 		grid-column-gap: 10px;
 		grid-row-gap: 10px;
 	}
-	li{
-		background: gray		
-
-	}
 /* /// */
 	.grid {
 		padding: 10px 10px;
@@ -35,7 +31,7 @@
 	}
 
 	.grid img{
-		width: 300px;
+		width: 100%;
 	}
 
 	.grid::before {
@@ -54,10 +50,10 @@
 </style>
 
 <svelte:head>
-	<title>Miembros y Amigos Senior 2010</title>
+	<title>Miembros y Amigos del Senior 2010</title>
 </svelte:head>
 
-<h1>Miembros y Amigos Senior 2010</h1>
+<h1>Miembros y Amigos del Senior 2010</h1>
 
 <ul>
 	<!-- {#each posts as post} -->
@@ -71,12 +67,9 @@
 
 <div class="grid">
 	{#each posts as post}
-
-	<div>
-		<h3>{post.title}</h3>
-		<li><a rel='prefetch' href='members/{post.slug}'><img src="{post.image}" alt="">
-</a></li>
-
-	</div>
+		<div>
+			<a rel='prefetch' href='members/{post.slug}'><img src="{post.image}" alt=""></a>
+			<p>{post.name}</p>
+		</div>
 	{/each}
 </div>

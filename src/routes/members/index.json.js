@@ -2,13 +2,12 @@ import posts from './_posts.js';
 
 const contents = JSON.stringify(posts.map(post => {
     return {
-        title: post.title,
+        name: post.name,
+        image: post.image,
+        id: post.id,
+        message: post.message,
         slug: post.slug,
-        desc: post.desc,
-        createdAt: post.createdAt,
-        html: post.html,
         tag: post.tag,
-        image: post.image
     };
 }));
 

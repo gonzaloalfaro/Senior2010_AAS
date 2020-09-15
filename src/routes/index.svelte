@@ -55,7 +55,7 @@
 			font-size: 3.5em
 		}
 		.content p{
-			font-size: 1.8em
+			font-size: 2.2em
 		}
 	}
 </style>
@@ -67,6 +67,6 @@
 <section>
 	<div class="content">
 		<h2>Felicidades AAS</h2>
-		<p>en tu 80 aniversario <br> 🇺🇸🇬🇧</p>
+		<p>80 Aniversario <br>🇺🇸🇬🇧</p>
 	</div>
 </section>

@@ -58,6 +58,7 @@
 </svelte:head>
 
 <h1>{post.title}</h1>
+<img src="{post.image}" alt="">
 
 <div class='content'>
 	{@html post.html}

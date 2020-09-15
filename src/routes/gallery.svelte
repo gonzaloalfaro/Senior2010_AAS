@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>Galeria de Fotos Senior2010</title>
 </svelte:head>
 
 <Images2 />

@@ -1,3 +1,7 @@
+<script>
+  import Youtube from '@sveltecasts/svelte-youtube';
+</script>
+
 <style>
     h1{
         color: #083358;
@@ -8,20 +12,6 @@
         color: #083358;
         text-align: center;
         padding-bottom: 20px;
-    }
-    .iframe-container{
-        position: relative;
-        width: 100%;
-        padding-bottom: 56%;
-        height: 0;
-    }
-    .iframe-container iframe{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-
     }
 </style>
 
@@ -34,11 +24,4 @@
   <p>Los mejores videos de nuestros años en el colegio</p>
 </div>
 
-<div class="iframe-container">
-  <iframe 
-    src="http://www.youtube.com/embed/W7qWa52k-nE"
-    width="560"
-    height="315"
-    frameborder="0"
-    allowfullscreen />
-</div>
+<Youtube width="{560}" height="{315}" videoId="cAftppcmqRE" />

@@ -60,6 +60,27 @@
 
 <svelte:head>
 	<title>Senior 2010 AAS</title>
+	<meta name="description" content="Senior 2010 AAS" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@senior2010aas" />
+	<meta name="twitter:creator" content="@gonzalfarof" />
+	<meta name="twitter:title" content="Senior 2010 AAS" />
+	<meta name="twitter:descripcion" content="Web del Senior 2010 del AAS" />
+	<meta
+    name="twitter:image"
+    content="https://aas-senior2010.s3.amazonaws.com/profiles/80aniv.jpg" />
+
+  <meta name="og:title" content="Senior 2010 AAS" />
+  <meta name="og:description" content="Web del Senior 2010 del AAS" />
+  <meta
+    name="og:image"
+    content="https://aas-senior2010.s3.amazonaws.com/profiles/80aniv.jpg" />
+  <meta name="og:url" content="https://senior2010-aas.now.sh" />
+  <meta name="og:site_name" content="Senior 2010 AAS" />
+  <meta name="og:locale" content="es_ES" />
+  <meta name="og:type" content="article" />
+  <meta name="fb:app_id" content="" />
 </svelte:head>
 
 <section>

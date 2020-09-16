@@ -12,7 +12,13 @@
 
 <style>
 
-	ul {
+	h1 {
+		color: #083358;
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+
+	/* ul {
 		margin: 0 0 1em 0;
 		line-height: 1.5;
 		display: grid;
@@ -20,7 +26,7 @@
 		grid-template-rows: repeat(6, 1fr);
 		grid-column-gap: 10px;
 		grid-row-gap: 10px;
-	}
+	} */
 /* /// */
 	.grid {
 		padding: 10px 10px;
@@ -32,7 +38,14 @@
 
 	.grid img{
 		width: 100%;
+		transition: transform 0.5s
 	}
+
+	.grid img:hover{
+		filter: drop-shadow(5px 5px 7px #083358);
+        transform: rotate(7deg) scale(1.2)
+	}
+
 
 	.grid::before {
 		content: '';
@@ -40,20 +53,24 @@
 		padding-bottom: 100%;
 		grid-row: 1 / 1;
 		grid-column: 1 / 1;
-}
+	}
 
-.grid > *:first-child {
-	grid-row: 1 / 1;
-	grid-column: 1 / 1;
-}
+	.grid > *:first-child {
+		grid-row: 1 / 1;
+		grid-column: 1 / 1;
+	}
 
+	.grid p{
+		color: #083358;
+		font-size: 14px;
+	}
 </style>
 
 <svelte:head>
 	<title>Miembros y Amigos del Senior 2010</title>
 </svelte:head>
 
-<h1>Miembros y Amigos del Senior 2010</h1>
+<h1>Integrantes y Amigos del Senior 2010</h1>
 
 <ul>
 	<!-- {#each posts as post} -->

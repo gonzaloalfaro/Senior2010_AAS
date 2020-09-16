@@ -1,10 +1,9 @@
 <style>
     h1{
+        color: #083358;
         text-align: center;
         padding: 20px 0 0 0;
     }
-
-    
 
     .galeria{
         display: grid;
@@ -37,7 +36,7 @@
     }
 </style>
 
-<h1>Galeria de Fotos Senior 2010</h1>
+<h1>Galeria de Fotos <br>Senior 2010</h1>
 <span class="linea"></span>
 
 <section class="galeria">
@@ -52,7 +51,7 @@
     <a href="https://aas-senior2010.s3.amazonaws.com/photos/9.jpg" target="_black"> <img src="https://aas-senior2010.s3.amazonaws.com/photos/9.jpg" alt=""></a>
     <a href="https://aas-senior2010.s3.amazonaws.com/photos/10.jpg" target="_black"> <img src="https://aas-senior2010.s3.amazonaws.com/photos/10.jpg" alt=""></a>
     <a href="https://aas-senior2010.s3.amazonaws.com/photos/11.JPG" target="_black"> <img src="https://aas-senior2010.s3.amazonaws.com/photos/11.JPG" alt=""></a>
-    <a href="#https://aas-senior2010.s3.amazonaws.com/photos/12.JPG" target="_black"> <img src="https://aas-senior2010.s3.amazonaws.com/photos/12.JPG" alt=""></a>
+    <a href="https://aas-senior2010.s3.amazonaws.com/photos/12.JPG" target="_black"> <img src="https://aas-senior2010.s3.amazonaws.com/photos/12.JPG" alt=""></a>
     <a href="https://aas-senior2010.s3.amazonaws.com/photos/13.jpg" target="_black"> <img src="https://aas-senior2010.s3.amazonaws.com/photos/13.jpg" alt=""></a>
     <a href="https://aas-senior2010.s3.amazonaws.com/photos/14.jpg" target="_black"> <img src="https://aas-senior2010.s3.amazonaws.com/photos/14.jpg" alt=""></a>
     <a href="https://aas-senior2010.s3.amazonaws.com/photos/15.JPG" target="_black"> <img src="https://aas-senior2010.s3.amazonaws.com/photos/15.JPG" alt=""></a>

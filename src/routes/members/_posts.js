@@ -4,7 +4,7 @@ const posts = [{
         "id": '1',
         "message": '',
         "slug": 'bac',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Ernesto Alejandro Alarcon Arias',
@@ -12,7 +12,7 @@ const posts = [{
         "id": '2',
         "message": '',
         "slug": 'eaaa',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Sheila Bertha Aquino Aragon',
@@ -20,7 +20,7 @@ const posts = [{
         "id": '3',
         "message": '',
         "slug": 'sbaa',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Henry Alvaro Aranibar Alanoca',
@@ -28,7 +28,7 @@ const posts = [{
         "id": '4',
         "message": '',
         "slug": 'haaa',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Sergio Andres Argandoña Cartagena',
@@ -36,7 +36,7 @@ const posts = [{
         "id": '5',
         "message": '',
         "slug": 'saac',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Sebastian Auza Derpic',
@@ -44,7 +44,7 @@ const posts = [{
         "id": '6',
         "message": '',
         "slug": 'sad',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Franco Giovanni Ayala Guerra',
@@ -52,7 +52,7 @@ const posts = [{
         "id": '7',
         "message": '',
         "slug": 'fgag',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Sergio Blanco Espinoza',
@@ -60,7 +60,7 @@ const posts = [{
         "id": '8',
         "message": '',
         "slug": 'sbe',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Jonathan Lucas Butron Carvajal',
@@ -68,7 +68,7 @@ const posts = [{
         "id": '9',
         "message": '',
         "slug": 'jlbc',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Daniela Calzadilla Rocha',
@@ -76,7 +76,7 @@ const posts = [{
         "id": '10',
         "message": '',
         "slug": 'dcr',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Roger Rodrigo Caro Coca',
@@ -84,7 +84,7 @@ const posts = [{
         "id": '11',
         "message": '',
         "slug": 'rrcc',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Juan Luis Cespedes Pariente',
@@ -92,7 +92,7 @@ const posts = [{
         "id": '12',
         "message": '',
         "slug": 'jlcp',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Nidia Delgadillo Campos',
@@ -100,7 +100,7 @@ const posts = [{
         "id": '13',
         "message": '',
         "slug": 'ndc',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Estefany Carolina Flores Brun',
@@ -108,7 +108,7 @@ const posts = [{
         "id": '14',
         "message": '',
         "slug": 'ecfb',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Pablo Ramiro Flores Portal',
@@ -116,7 +116,7 @@ const posts = [{
         "id": '15',
         "message": '',
         "slug": 'prfp',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Mariana Jeanine Gonzales Del Castillo',
@@ -124,7 +124,7 @@ const posts = [{
         "id": '16',
         "message": '',
         "slug": 'mjgdc',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Daniel Gonzalez Pinto',
@@ -132,7 +132,7 @@ const posts = [{
         "id": '17',
         "message": '',
         "slug": 'dgp',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Joselyn Diana Guardia Vargas',
@@ -140,7 +140,7 @@ const posts = [{
         "id": '18',
         "message": '',
         "slug": 'jdgv',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Raquel Gaby Herrera Patzi',
@@ -148,7 +148,7 @@ const posts = [{
         "id": '19',
         "message": '',
         "slug": 'rghp',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Percy Kevin Irahola Marca',
@@ -156,7 +156,7 @@ const posts = [{
         "id": '20',
         "message": '',
         "slug": 'pkim',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Alejandra Fabiola Laguna Canchari',
@@ -164,7 +164,7 @@ const posts = [{
         "id": '21',
         "message": '',
         "slug": 'aflc',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Julio Eliot Lucana Ramos',
@@ -172,7 +172,7 @@ const posts = [{
         "id": '22',
         "message": '',
         "slug": 'jelr',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Diego Mauricio Lucero Sandoval',
@@ -180,7 +180,7 @@ const posts = [{
         "id": '23',
         "message": '',
         "slug": 'dmls',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Israel David Luna Pita',
@@ -188,7 +188,7 @@ const posts = [{
         "id": '24',
         "message": '',
         "slug": 'idlp',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Diego Marcelo Maldonado Vasquez',
@@ -196,7 +196,7 @@ const posts = [{
         "id": '25',
         "message": '',
         "slug": 'dmmv',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Sergio Alejandro Mansilla Jimenez',
@@ -204,15 +204,15 @@ const posts = [{
         "id": '26',
         "message": '',
         "slug": 'samj',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
-        "name": 'Cecilia Gabriela Mogrobejo Rodriguez',
+        "name": 'Cecilia Mogrobejo Rodriguez',
         "image": 'https://aas-senior2010.s3.amazonaws.com/profiles/27.jpg',
         "id": '27',
         "message": '',
         "slug": 'cgmr',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Dayana Ilsen Molina Zalles',
@@ -220,7 +220,7 @@ const posts = [{
         "id": '28',
         "message": '',
         "slug": 'dimz',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Lenny Montes Choque',
@@ -228,7 +228,7 @@ const posts = [{
         "id": '29',
         "message": '',
         "slug": 'lmc',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Pamela Angela Monthiel Togo',
@@ -236,7 +236,7 @@ const posts = [{
         "id": '30',
         "message": '',
         "slug": 'pamt',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Aleida Laura Olivera Bustillos',
@@ -244,7 +244,7 @@ const posts = [{
         "id": '31',
         "message": '',
         "slug": 'alob',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Luis Marcelo Panozo Goitia',
@@ -252,7 +252,7 @@ const posts = [{
         "id": '32',
         "message": '',
         "slug": 'lmpg',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Rodrigo Andres Paz Terrazas',
@@ -260,7 +260,7 @@ const posts = [{
         "id": '33',
         "message": '',
         "slug": 'rapt',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Jhonny Edwin Quilo Vidaurre',
@@ -268,7 +268,7 @@ const posts = [{
         "id": '34',
         "message": '',
         "slug": 'jeqv',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Dayana Quiroz Bardales',
@@ -276,7 +276,7 @@ const posts = [{
         "id": '35',
         "message": '',
         "slug": 'dqb',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": ' Daniela Belen Rios Veizan',
@@ -284,7 +284,7 @@ const posts = [{
         "id": '36',
         "message": '',
         "slug": 'dbrv',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Alejandra Lenny Rivera Garces',
@@ -292,7 +292,7 @@ const posts = [{
         "id": '37',
         "message": '',
         "slug": 'alrg',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Cristina Andrea Rivera Zelaya',
@@ -300,7 +300,7 @@ const posts = [{
         "id": '38',
         "message": '',
         "slug": 'carz',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Diego Ramiro Rodriguez Armaza',
@@ -308,7 +308,7 @@ const posts = [{
         "id": '39',
         "message": '',
         "slug": 'drra',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Alejandro Rojas Prado',
@@ -316,7 +316,7 @@ const posts = [{
         "id": '40',
         "message": '',
         "slug": 'arp',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Brian Teran Sangueza',
@@ -324,7 +324,7 @@ const posts = [{
         "id": '41',
         "message": '',
         "slug": 'btz',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Cesar Martin Torrico Miranda',
@@ -332,7 +332,7 @@ const posts = [{
         "id": '42',
         "message": '',
         "slug": 'cmtm',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Romina Alejandra Varas Ulloa',
@@ -340,7 +340,7 @@ const posts = [{
         "id": '43',
         "message": '',
         "slug": 'ravu',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Jhenny Janette Vargas Alanez',
@@ -348,7 +348,7 @@ const posts = [{
         "id": '44',
         "message": '',
         "slug": 'jjva',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Sergio Luis Vasquez Romero',
@@ -356,7 +356,7 @@ const posts = [{
         "id": '45',
         "message": '',
         "slug": 'slvr',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Adrian Velasco Balderrama',
@@ -364,7 +364,7 @@ const posts = [{
         "id": '46',
         "message": '',
         "slug": 'avb',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Valeria Alejandra Zuleta Cruz',
@@ -372,7 +372,7 @@ const posts = [{
         "id": '47',
         "message": '',
         "slug": 'vazc',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Gonzalo Oscar Alfaro Fernandez',
@@ -380,7 +380,7 @@ const posts = [{
         "id": '48',
         "message": '',
         "slug": 'goaf',
-        "tag": 'member',
+        "tag": 'Integrante del Senior 2010',
     },
     {
         "name": 'Lorena Susy Illanes Sanjines',
@@ -388,7 +388,7 @@ const posts = [{
         "id": '49',
         "message": '',
         "slug": 'lsis',
-        "tag": 'guest',
+        "tag": 'Amigos del Senior 2010',
     },
     {
         "name": 'Nancy Nina',
@@ -396,7 +396,7 @@ const posts = [{
         "id": '50',
         "message": '',
         "slug": 'nn1',
-        "tag": 'guest',
+        "tag": 'Amigos del Senior 2010',
     },
     {
         "name": 'Amalia Teran Alfaro',
@@ -404,7 +404,7 @@ const posts = [{
         "id": '51',
         "message": '',
         "slug": 'ata',
-        "tag": 'guest',
+        "tag": 'Amigos del Senior 2010',
     },
     {
         "name": 'Fabricio Bayá Hinojosa',
@@ -412,7 +412,7 @@ const posts = [{
         "id": '52',
         "message": '',
         "slug": 'fbh',
-        "tag": 'guest',
+        "tag": 'Amigos del Senior 2010',
     },
     {
         "name": 'Mario Escalante Saravia',
@@ -420,7 +420,7 @@ const posts = [{
         "id": '53',
         "message": '',
         "slug": 'mjes',
-        "tag": 'guest',
+        "tag": 'Amigos del Senior 2010',
     },
     {
         "name": 'Gabriel Garcia Alvarez',
@@ -428,7 +428,7 @@ const posts = [{
         "id": '54',
         "message": '',
         "slug": 'gga',
-        "tag": 'guest',
+        "tag": 'Amigos del Senior 2010',
     },
     {
         "name": 'Cristopher Ayala Orgaz',
@@ -436,7 +436,7 @@ const posts = [{
         "id": '55',
         "message": '',
         "slug": 'cao',
-        "tag": 'guest',
+        "tag": 'Amigos del Senior 2010',
     },
     {
         "name": 'Juan Bernardo Montoya',
@@ -444,7 +444,7 @@ const posts = [{
         "id": '56',
         "message": '',
         "slug": 'jbm',
-        "tag": 'guest',
+        "tag": 'Amigos del Senior 2010',
     }
 ];
 

@@ -18,41 +18,120 @@
 </script>
 
 <style>
-	/*
-		By default, CSS is locally scoped to the component,
-		and any unused styles are dead-code-eliminated.
-		In this page, Svelte can't know which elements are
-		going to appear inside the {{{post.html}}} block,
-		so we have to use the :global(...) modifier to target
-		all elements inside .content
-	*/
-	/* .content :global(h2) {
-		font-size: 1.4em;
-		font-weight: 500;
+
+.body{
+	margin: 0;
+	padding: 0;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: linear-gradient(303deg, #ff0000, #083358, #ffffff);
+    background-size: 600% 600%;
+
+    -webkit-animation: RBWanimation 30s ease infinite;
+    -moz-animation: RBWanimation 30s ease infinite;
+    animation: RBWanimation 30s ease infinite;
+}
+.box{
+	width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350, 1fr));
+	grid-gap: 15px;
+	margin: 0 auto;
+}
+.card{
+	position: relative;
+	width: 500px;
+	height: 580px;
+	background: #fff;
+	margin: 0 auto;
+	box-shadow: 0 2px 10px rgba(255, 255, 255, 0.6)
+}
+
+.card .imgbox{
+	position: absolute;
+	top: 10px; 
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	/* background: #222; */
+}
+
+.card .imgbox img{
+	position: absolute;
+	width: 100%;
+	/* height: 100%; */
+}
+
+.card .details{
+	position: absolute;
+	text-align: center;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	height: 60px;
+}
+
+.card .details h2{
+	
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	font-size: 25px;
+	color: #083358;
+}
+@media screen and (max-width: 800px){
+	.card {
+		position: relative;
+		width: 440px;
+		height: 540px;
 	}
-
-	.content :global(pre) {
-		background-color: #f9f9f9;
-		box-shadow: inset 1px 1px 5px rgba(0,0,0,0.05);
-		padding: 0.5em;
-		border-radius: 2px;
-		overflow-x: auto;
+	.card .details h2{
+		font-size: 18px
 	}
+}
 
-	.content :global(pre) :global(code) {
-		background-color: transparent;
-		padding: 0;
+@media screen and (max-width: 625px){
+	.card {
+		position: relative;
+		width: 380px;
+		height: 480px;
 	}
-
-	.content :global(ul) {
-		line-height: 1.5;
+	.card .details h2{
+		font-size: 18px
 	}
+}
 
-	.content :global(li) {
-		margin: 0 0 0.5em 0;
-	} */
+@media screen and (max-width: 425px){
+	.card {
+		position: relative;
+		width: 300px;
+		height: 400px;
+	}
+	.card .details h2{
+		font-size: 18px
+	}
+}
 
-
+@-webkit-keyframes RBWanimation {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+@-moz-keyframes RBWanimation {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+@keyframes RBWanimation {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
 
 </style>
 
@@ -60,7 +139,7 @@
 	<title>{post.name} </title>
 </svelte:head>
 
-<div class="member">
+<!-- <div class="member">
 	<div class="member-name">
 		<h1>{post.name}</h1>
 	</div>
@@ -69,8 +148,19 @@
 	</div>
 	<div class="member-message">
 	</div>
+</div> -->
+
+<div class="body">
+<div class="box">
+	<div class="card">
+		<div class="imgbox">
+			<img src="{post.image}" alt="photo">
+		</div>
+		<div class="details">
+			<h2>{post.name}</h2>
+			<span>{post.tag}</span>
+		</div>
+	</div>
+</div>
 </div>
 
-<!-- <div class='content'>
-	{@html post.html}
-</div> -->

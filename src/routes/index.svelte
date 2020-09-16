@@ -1,5 +1,4 @@
 <style>
-
 	@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 
 	section{
@@ -8,8 +7,7 @@
 		justify-content: flex-start;
 		align-items: center;
 		min-height: 100vh;
-		background: url('anglophoto2020.3.jpg'), url('mask.jpg');
-		background-blend-mode: screen;
+		background: url('angloimage3.jpg');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -18,8 +16,8 @@
 	.content{
 		padding: 50px;
 		font-family: 'Merienda One', cursive;
-		color: darkblue;
-		text-shadow: 0 5px 15px rgba(255, 255, 255, 1.2)
+		color: #fff;
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.9)
 
 	}
 
@@ -40,7 +38,7 @@
 		justify-content: flex-start;
 		align-items: center;
 		min-height: 100vh;
-		background: url('anglophoto2020.3.jpg');
+		background: url('angloimage3.jpg');
 		background-size: 290%;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -67,6 +65,6 @@
 <section>
 	<div class="content">
 		<h2>Felicidades AAS</h2>
-		<p>80 Aniversario <br>🇺🇸🇬🇧</p>
+		<p>por tu 80 Aniversario<br>🇺🇸🇬🇧</p>
 	</div>
 </section>

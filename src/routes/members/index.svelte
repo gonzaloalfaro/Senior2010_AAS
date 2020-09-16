@@ -17,17 +17,7 @@
         text-align: center;
         padding: 20px 0 0 0;
     }
-
-	/* ul {
-		margin: 0 0 1em 0;
-		line-height: 1.5;
-		display: grid;
-		grid-template-columns: repeat(8, 1fr);
-		grid-template-rows: repeat(6, 1fr);
-		grid-column-gap: 10px;
-		grid-row-gap: 10px;
-	} */
-/* /// */
+	
 	.grid {
 		padding: 10px 10px;
 		display: grid;
@@ -70,17 +60,7 @@
 	<title>Miembros y Amigos del Senior 2010</title>
 </svelte:head>
 
-<h1>Integrantes y Amigos del Senior 2010</h1>
-
-<ul>
-	<!-- {#each posts as post} -->
-		<!-- we're using the non-standard `rel=prefetch` attribute to
-				tell Sapper to load the data for the page as soon as
-				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->
-		<!-- <li><a rel='prefetch' href='members/{post.slug}'>{post.title}</a></li> -->
-	<!-- {/each} -->
-</ul>
+<h1>Integrantes y Amigos <br> del Senior 2010</h1>
 
 <div class="grid">
 	{#each posts as post}

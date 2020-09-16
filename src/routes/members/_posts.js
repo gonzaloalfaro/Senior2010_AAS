@@ -388,7 +388,7 @@ const posts = [{
         "id": '49',
         "message": '',
         "slug": 'lsis',
-        "tag": 'Amigos del Senior 2010',
+        "tag": 'Amiga del Senior 2010',
     },
     {
         "name": 'Nancy Nina',
@@ -396,7 +396,7 @@ const posts = [{
         "id": '50',
         "message": '',
         "slug": 'nn1',
-        "tag": 'Amigos del Senior 2010',
+        "tag": 'Amiga del Senior 2010',
     },
     {
         "name": 'Amalia Teran Alfaro',
@@ -404,7 +404,7 @@ const posts = [{
         "id": '51',
         "message": '',
         "slug": 'ata',
-        "tag": 'Amigos del Senior 2010',
+        "tag": 'Amiga del Senior 2010',
     },
     {
         "name": 'Fabricio Bayá Hinojosa',
@@ -412,7 +412,7 @@ const posts = [{
         "id": '52',
         "message": '',
         "slug": 'fbh',
-        "tag": 'Amigos del Senior 2010',
+        "tag": 'Amigo del Senior 2010',
     },
     {
         "name": 'Mario Escalante Saravia',
@@ -420,7 +420,7 @@ const posts = [{
         "id": '53',
         "message": '',
         "slug": 'mjes',
-        "tag": 'Amigos del Senior 2010',
+        "tag": 'Amigo del Senior 2010',
     },
     {
         "name": 'Gabriel Garcia Alvarez',
@@ -428,7 +428,7 @@ const posts = [{
         "id": '54',
         "message": '',
         "slug": 'gga',
-        "tag": 'Amigos del Senior 2010',
+        "tag": 'Amigo del Senior 2010',
     },
     {
         "name": 'Cristopher Ayala Orgaz',
@@ -436,7 +436,7 @@ const posts = [{
         "id": '55',
         "message": '',
         "slug": 'cao',
-        "tag": 'Amigos del Senior 2010',
+        "tag": 'Amigo del Senior 2010',
     },
     {
         "name": 'Juan Bernardo Montoya',
@@ -444,12 +444,8 @@ const posts = [{
         "id": '56',
         "message": '',
         "slug": 'jbm',
-        "tag": 'Amigos del Senior 2010',
+        "tag": 'Amigo del Senior 2010',
     }
 ];
-
-// posts.forEach(post => {
-// post.html = post.html.replace(/^\t{3}/gm, '');
-// });
 
 export default posts;

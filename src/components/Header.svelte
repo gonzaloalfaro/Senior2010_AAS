@@ -2,18 +2,20 @@
     .Header
     {
         background-color: #fff;
-        padding: 0.5em 0 0 0;
+        padding: 0 0 0 0;
     }
     .Header-container {
         display: grid;
         grid-template-columns: minmax(auto, 1024px);
         justify-content: center;
         align-items: center;
+        padding: 10px 0 0 0 
     }
     .Header-content {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        padding: 0;
     }
     .Header-logo  {
         display: block;
@@ -21,13 +23,13 @@
 
     }
     .Header-logo img {
-        width: 25%;
+        width: 65%;
         cursor: pointer;
     }
 
     @media only screen and (max-width: 600px) {
     .Header-logo img {
-        width: 50%;
+        width: 65%;
         cursor: pointer;
     }
 }
@@ -37,7 +39,9 @@
     <div class="Header-container">
         <div class="Header-content">
             <div class="Header-logo">
-                <img src="seniorlogo.svg" alt="">
+                <a href="#">
+                <img src="seniorlogo2.svg" alt="">
+                </a>
             </div>
         </div>
     </div>

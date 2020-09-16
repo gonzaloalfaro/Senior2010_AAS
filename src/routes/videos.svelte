@@ -24,4 +24,4 @@
   <p>Los mejores videos de nuestros años en el colegio</p>
 </div>
 
-<Youtube width="{560}" height="{315}" videoId="cAftppcmqRE" />
+<Youtube width="{426}" height="{240}" videoId="cAftppcmqRE" />

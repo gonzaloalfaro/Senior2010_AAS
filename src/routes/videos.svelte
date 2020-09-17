@@ -1,5 +1,7 @@
 <script>
   import Youtube from '@sveltecasts/svelte-youtube';
+
+  import Video1 from "../components/Video1.svelte"
 </script>
 
 <style>
@@ -13,6 +15,15 @@
         text-align: center;
         padding-bottom: 20px;
     }
+
+    a{
+      color: red
+    }
+
+    a:hover{
+      color: #083358
+    }
+
 </style>
 
 <svelte:head>
@@ -20,8 +31,14 @@
 </svelte:head>
 
 <div class="Videos">
-  <h1>Videos del Senior 2010</h1>
-  <p>Los mejores videos de nuestros años en el colegio</p>
+  <h1>Más videos en canal de YouTube <br> del Senior 2010 &#9199</h1>
+  <p><a href="https://www.youtube.com/channel/UCKbgzCVxk9s6X1W5ZwsTrNA/">YouTube Senior 2010 &#128721</a></p>
 </div>
 
-<Youtube width="{426}" height="{240}" videoId="cAftppcmqRE" />
+<Youtube  width="{426}" height="{240}" videoId="Yv0dwWtegdM" />
+<!-- <Youtube  width="{426}" height="{240}" videoId="nRvAwgQKcfg" />
+<Youtube  width="{426}" height="{240}" videoId="Zx_IH99vLJA" />
+<Youtube  width="{426}" height="{240}" videoId="_2L4OXi0tzI" />
+<Youtube  width="{426}" height="{240}" videoId="kGpOQM8rbGU" /> -->
+
+<Video1 />
